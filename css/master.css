@@ -41,26 +41,25 @@ section {
 }
 form {
 	width: 90%;
-	max-width: 400px;
+	max-width: 500px;
 	margin: 20px auto;
 	background: rgb(226, 219, 219);
 	border-radius: 5px;
 }
 form input {
-	width: 100%;
+	width: 90%;
 	background: transparent;
 	padding: 10px;
-	border-radius: 5px;
 	border: none;
 	outline: none;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	display: inline-block;
 }
-form icon-icon {
+form ion-icon {
 	width: 9%;
 	font-size: 3rem;
-	margin: -9px;
-	color: blue;
+	margin: -2px;
+	color: rgb(198, 198, 206);
 }
 .result {
 	margin-top: 50px;
@@ -71,23 +70,26 @@ form icon-icon {
 }
 .card {
 	width: 100%;
-	border-radius: 5px;
+	border-radius: 4px;
 	background: rgb(233, 227, 227);
+	padding: 20px;
+	overflow: hidden;
 }
 .card img {
 	width: 100%;
 	height: 350px;
-	border-radius: 5px;
+	border-radius: 4px;
 }
 .card .flex-content {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+	padding: 10px;
 }
 .card .title {
-	color: #222121;
+	color: #7a7676;
 	margin: 20px 10 0 0;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 }
 .read-more {
 	text-decoration: none;
@@ -113,7 +115,7 @@ form icon-icon {
 }
 .wrapper .initial form input {
 	padding: 20px;
-	font-size: 3rem;
+	font-size: 2rem;
 }
 .wrapper .logo {
 	font-size: 5rem;
