@@ -80,7 +80,7 @@ form ion-icon {
 	height: 350px;
 	border-radius: 4px;
 }
-.card .flex-content {
+.flex-content {
 	display: flex;
 	justify-content: center;
 	align-items: center;
