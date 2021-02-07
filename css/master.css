@@ -15,6 +15,7 @@ body,
 html {
 	font-family: 'Roboto';
 	font-size: 1rem;
+	font-weight: 500;
 }
 section {
 	min-width: 100vh;
@@ -69,11 +70,40 @@ form icon-icon {
 }
 .card {
 	width: 100%;
-	border-radius: 10px;
-	background: rgb(197, 189, 189);
+	border-radius: 5px;
+	background: rgb(233, 227, 227);
 }
 .card img {
 	width: 100%;
 	height: 350px;
-	border-radius: 10px;
+	border-radius: 5px;
+}
+.card .flex-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card .title {
+	color: #222121;
+	margin: 20px 10 0 0;
+	font-size: 1.2rem;
+}
+.read-more {
+	text-decoration: none;
+	text-align: center;
+	width: 130px;
+	padding: 10px 0;
+	background: #2c75b9;
+	border-radius: 4px;
+	font-size: 1.2rem;
+	margin-top: 20px;
+	align-self: flex-start;
+}
+.card-info {
+	color: #1f1e1e;
+	display: block;
+	margin-top: 10px;
+	font-size: 1.4rem;
+	letter-spacing: 0.05rem;
+	line-height: 2rem;
 }
