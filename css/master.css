@@ -71,7 +71,7 @@ form ion-icon {
 .card {
 	width: 100%;
 	border-radius: 4px;
-	background: rgb(233, 227, 227);
+	background: rgb(240, 232, 232);
 	padding: 20px;
 	overflow: hidden;
 }
@@ -96,7 +96,8 @@ form ion-icon {
 	text-align: center;
 	width: 130px;
 	padding: 10px 0;
-	background: #2c75b9;
+	background: #6f9dc7;
+	color: #f2f2f2;
 	border-radius: 4px;
 	font-size: 1.2rem;
 	margin-top: 20px;
@@ -134,4 +135,12 @@ form ion-icon {
 		padding: 10px;
 		font-size: 2rem;
 	}
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	padding: 20px;
 }

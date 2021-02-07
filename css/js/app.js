@@ -27,13 +27,14 @@ let handledHTML = '';
 results.map(item => {
 handledHTML += `
 <div class="card">
-<img src="${item.recipe.image}" alt="Recipe">
+<a href="${item.recipe.url}" target='_blank'> 
+<img src="${item.recipe.image}" alt="Recipe"> 
+</a>
   <div class="flex-content">
   <h1 class="title">${item.recipe.label}</h1>
-
   </div>
  <p class="card-info">Calories: ${item.recipe.calories.toFixed(2)}</p>
- <p class="card-info">Diet:${item.recipe.dietLabels.lenght > 0 ? item.recipe.dietLabels.lenght : 'No Data Found'}</p>
+ <p class="card-info">Diet:${item.recipe.dietLabels}</p>
   <p class="card-info">Health: ${item.recipe.healthLabels}</p>
   <a class="read-more" href="${item.recipe.url}" target='_blank'>Read More</a>
   </div>
