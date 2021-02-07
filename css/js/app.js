@@ -22,6 +22,7 @@ handleHTML(data.hits)
 console.log(data)
 }
 function handleHTML(results){
+//wrapper.classList.remove('initial')
 let handledHTML = '';
 results.map(item => {
 handledHTML += `

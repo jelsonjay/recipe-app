@@ -14,7 +14,7 @@ img {
 body,
 html {
 	font-family: 'Roboto';
-	font-size: 1rem;
+	font-size: 16px;
 	font-weight: 500;
 }
 section {
@@ -24,10 +24,10 @@ section {
 	justify-content: center;
 	align-items: center;
 	padding: 100px 0;
-	background: rgb(97, 92, 92);
+	background: rgb(65, 124, 163);
 }
 .wrapper {
-	width: 100%;
+	width: 90%;
 	height: auto;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -44,13 +44,15 @@ form {
 	max-width: 400px;
 	margin: 20px auto;
 	background: rgb(226, 219, 219);
+	border-radius: 5px;
 }
 form input {
-	width: 90%;
+	width: 100%;
 	background: transparent;
 	padding: 10px;
 	border-radius: 5px;
 	border: none;
+	outline: none;
 	font-size: 1rem;
 	display: inline-block;
 }
@@ -105,4 +107,29 @@ form icon-icon {
 	font-size: 1rem;
 	letter-spacing: 0.05rem;
 	line-height: 2rem;
+}
+.wrapper .initial form {
+	max-width: 800px;
+}
+.wrapper .initial form input {
+	padding: 20px;
+	font-size: 3rem;
+}
+.wrapper .logo {
+	font-size: 5rem;
+}
+@media screen and (max-width: 768px) {
+	.result {
+		grid-gap: 10px;
+	}
+	.wrapper .initial .logo {
+		font-size: 3rem;
+	}
+	.wrapper .initial form {
+		max-width: 500px;
+	}
+	.wrapper .initial form input {
+		padding: 10px;
+		font-size: 2rem;
+	}
 }
